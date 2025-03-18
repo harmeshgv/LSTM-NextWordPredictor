@@ -3,6 +3,13 @@
 ## Overview
 This project implements a next-word prediction model using LSTM (Long Short-Term Memory) networks. It trains on the text from `blue_castle.txt` and learns to predict the next word based on the given input sequence.
 
+## Clone the Repository
+To get started, clone this repository to your local machine:
+```sh
+git clone https://github.com/harmeshgv/LSTM-NextWordPredictor.git
+cd LSTM-NextWordPredictor
+```
+
 ## Setup Instructions
 ### 1. Create and Activate Virtual Environment
 #### On Windows (cmd or PowerShell):
@@ -34,6 +41,17 @@ After training, you can test the next-word prediction using:
 python predict.py
 ```
 Enter a phrase, and the model will predict the next word.
+
+## Example Usage
+Once the model is running, try the following:
+```sh
+Enter your line: The book was
+```
+Expected output:
+```sh
+castle
+```
+To exit, type `0`.
 
 ## Project Files
 - `Next_word_prediction_using_LSTM_walkthrough.ipynb` - Jupyter Notebook with detailed explanations
